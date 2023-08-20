@@ -1,0 +1,239 @@
+body{
+    margin:0;
+}
+ /*add resturant*/
+.maincontainer{
+	width:100%;
+	height:90px;
+	background-color:red;
+}
+.innercontainer{
+	margin:auto;
+	width:1000px;
+	height:100px;
+}
+.name{
+	width: 800px;
+	float: left;
+	padding-top:27px;
+}
+.name span{
+	color:white;
+	font-size:40px;
+	font-family:cursive;
+	font-weight:bold;
+	line-height:40px;
+}
+.name p{
+	color: white;
+	font-size: 15px;
+	margin:0;
+}
+.login1{
+	width: 200px;
+	float:right;
+}
+.login1 input{
+	float:right;
+	width:110px;
+	margin-top: 50px;
+	font-weight: bold;
+	font-size: 18px;
+	color: white;
+	cursor:pointer;
+	background-color:orange;
+	border:1px solid black;
+	border-radius:3px;
+}
+.maincontainer1{
+	width:100%;
+	height:30px;
+	background:orange;
+}
+.innercontainer1{
+	margin:auto;
+	width:1000px;
+}
+.date{
+	width:650px;
+	height:60px;
+}
+.date p{
+	margin: 0;
+	padding: 0;
+	font-family:arial;
+	font-size:13px;
+	font-weight:bold;
+	color:white;
+	line-height:30px;
+}
+.list{
+	width:650px;
+	height:60px;
+}
+.list ul{
+	margin: 0;
+	padding: 0;
+}
+.list ul li{
+	float: left;
+	color:white;
+	margin-top:8px;
+	font-weight: bold;
+	font-family: 'Merriweather Sans', sans-serif;
+	list-style: none;
+	font-size:14px;
+	margin-left:14px;
+}
+.list a{
+	text-decoration:none;
+	color:white;
+}
+.innercontainer2{
+	width:1000px;
+	height:600px;
+	margin:auto;
+}
+.page{
+	width:660px;
+	height:350px;
+	border:1px solid grey;
+	margin:auto;
+	margin-top:10px;
+}
+.page1{
+	font-family:arial;
+	font-weight:bold;
+	font-size:14px;
+	padding:2px;
+	width:655px;
+	border-bottom:solid 1px #ccc;
+}
+.heading{
+	width:660px;
+	margin:auto;
+	height:45px;
+	margin-top:15px;
+	background:linear-gradient(to top,rgb(255, 180, 105),rgb(255, 81, 81));
+	border-radius:6px;
+}
+.heading span{
+	font-family:cursive;
+	font-weight:bold;
+	font-size:28px;
+	line-height:35px;
+	color:white;
+	padding:16px;
+}
+.table2{
+	border:solid 1px black; 
+	width:650px;
+	margin-left:5px;
+    font-family:arial;
+    font-size:11px;
+    line-height:4px;
+    border-collapse:collapse;
+    border-bottom:1px solid #ccc;
+
+}
+.footer{
+	width:100%;
+	height:40px;
+	margin-top:10px;
+	background:red;
+}
+ /*resturant summary*/
+.innercontainer3{
+	width:1000px;
+	height:600px;
+	margin:auto;
+}
+.innercontainer3 p{
+	margin-left:15px;
+}
+.heading1{
+	width:95%;
+	margin-left:15px;
+	height:45px;
+	margin-top:15px;
+	background:linear-gradient(to top,rgb(255, 180, 105),rgb(255, 81, 81));
+	border-radius:6px;
+}
+.heading1 span{
+	font-family:cursive;
+	font-weight:bold;
+	font-size:28px;
+	line-height:35px;
+	color:white;
+	padding:16px;
+}
+.table{
+	border:solid 1px;
+	font-family:arial;
+	font-size:14px;
+	border-collapse:collapse;
+	width:95%;
+	margin-left:15px;
+}
+.table th{
+	border:solid 1px;
+}
+.table tr:nth-child(1){
+	background-color:#EEE;
+}
+.table td{
+	border:solid 1px;
+}
+.table input[type="button"]{
+	margin-left:530px;
+	background-color:rgba(28,88,120,255);
+	color:white;
+}
+.table img{
+	width:42px;
+	height:36px; 
+}
+/*Dish summary*/
+.innercontainer4{
+	width:1000px;
+	height:600px;
+	margin:auto;
+}
+.innercontainer4 p{
+	margin-left:15px;
+}
+/*Dish add*/
+.innercontainer5{
+	width:1000px;
+	height:600px;
+	margin:auto;
+}
+/*login*/
+.innercontainer6{
+	width:1000px;
+	height:450px;
+	margin:auto;
+}
+.log{
+	width:700px;
+	height:300px;
+	margin:auto;
+	background:linear-gradient(to top,rgb(255, 180, 105),rgb(255, 81, 81));
+	border-radius:10px;
+	margin-top:150px;
+}
+.logintable{
+	font-family:arial;
+	font-size:13px;
+	width:300px;
+	margin:auto;
+	padding:50px;
+}
+.logintable input[type="Button"]{
+    background:black;
+	color:white;
+}
+.logintable p{
+	font-weight:bold;
+	font-size:18px;
+}
